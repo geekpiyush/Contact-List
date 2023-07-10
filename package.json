@@ -1,0 +1,23 @@
+{
+  "name": "contact_list",
+  "version": "1.0.0",
+  "description": "make a simple contact list",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "geekpiyush"
+  ],
+  "author": "geekpiyush",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "jquery": "^3.7.0",
+    "mongoose": "^7.2.2",
+    "nodemon": "^2.0.22",
+    "ui": "^0.2.4"
+  }
+}

@@ -1,0 +1,118 @@
+body{
+    background-color:cadetblue;
+    margin: 0px;
+    padding: 0px;
+font-family: 'Merriweather Sans', sans-serif;
+}
+
+#page-heading
+{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.content
+{
+    width: 30vw;
+    height: 50vh;
+    /* background-color: aqua; */
+    margin: auto;
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    color: white;
+    
+}
+.form
+{
+    /* background: black; */
+    width: 35vw;
+    position: relative;
+    top: 4vh;
+    margin: auto;
+}
+i
+{
+    color: white;
+    position: relative;
+    padding: 5px;
+}
+span
+{
+    color: white;
+    font-size: 1.3rem;
+}
+.contact-container
+{
+    background-color: cornflowerblue;
+    width: 25vw;
+    transition: all .5s ease-in-out;
+    list-style-type: none;
+    position: relative;
+    display: block;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    border-bottom: 2px solid black;
+}
+
+.contact-container:hover
+{
+    background-color:black;
+    
+}
+/* .contact-container:nth-child(even):hover
+{
+    background-color: chocolate;
+} */
+.details
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.details .delete-button
+{
+    display: flex;
+}
+.btn
+{
+    width: 37vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 2vh;
+}
+.btn button
+{
+    background-color:black;
+    width: 30%;
+    padding: 8px;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s;
+}
+input
+{
+    width:30%;
+    height: 20px;
+    background-color:lightgray;
+    border: none;
+    border-bottom: 2px solid white;
+}
+input::placeholder
+{
+    color:black;
+    font-size: .9rem;
+}
+input:focus
+{
+    outline: none;
+}
+
+.delete-button a
+{
+    position: relative;
+    top: -10px;
+    left: 89%;
+}
